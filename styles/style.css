@@ -1,0 +1,275 @@
+/* 
+This website is designed to the display resolution 1280 x 720(HD) pixels.
+so for the better experience please resize you browser window to that resolution.
+*/
+/* google fonts*/
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sets the background color */
+body {
+    background-color: #f5f5f5;
+}
+
+/* default setting */
+#banner-section,
+#Pillars_of_bangladesh_section,
+#the_vision_of_future_section,
+#your_opinion_matters_section,
+#recent_news_section,
+#donate_section,
+#newsletter_section {
+    margin: 0 128px 80px 192px;
+    max-width: 1280px;
+}
+
+/* shared styles */
+.heading-font1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.heading-font2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.heading-font3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.heading-font5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.heading-font6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.heading-font7 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.paragraph-font1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.paragraph-font2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.paragraph-font3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.paragraph-font4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+}
+.paragraph-font5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+.button1 {
+    color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: #006A50;
+    padding: 15px 30px;
+    border-width: 1px;
+}
+
+.button2 {
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-style: none;
+}
+
+.button3 {
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border-style: none;
+}
+
+.button4 {
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-style: none;
+}
+
+.button5 {
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border-style: none;
+}
+
+.button6 {
+    color: #0E0E0E;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(9, 161, 92, 0.15);
+    padding: 10px 14px;
+}
+
+.button7 {
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border-style: none;
+}
+
+/* Nav Section */
+#Navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 31px 160px;
+}
+
+/* Banner Section */
+#banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #C6E4D6;
+    height: 560px;
+    border-radius: 24px;
+}
+
+.banner-heading {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* Pillars OF Bangladesh 2.0 Section*/
+.Pillars_of_bangladesh_content {
+    display: flex;
+}
+
+.pillars_of_bd_card1,
+.pillars_of_bd_card2,
+.pillars_of_bd_card3,
+.pillars_of_bd_card4 {
+    background-color: #FFFFFF;
+    margin-right: 24px;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+/* The Vision OF the FUture Section*/
+.the_vision_of_future_header,
+.the_vision_of_future_body {
+    margin-bottom: 32px;
+}
+
+.the_vision_of_future_body {
+    display: flex;
+    align-items: center;
+
+}
+
+.the_vision_of_future_card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.the_vision_of_future_card2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.the_vision_of_future_card3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.the_vision_of_future_card1,
+.the_vision_of_future_card2,
+.the_vision_of_future_card3 {
+    margin-right: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    height: 300px;
+    width: 410px;
+}
+
+.button3,
+.button4,
+.button5 {
+    margin-top: 32px;
+}
+
+.the_vision_of_future_footer {
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.the_vision_of_future_footer_text {
+    margin-top: -48px;
+}
+
+.yunus {
+    margin-bottom: -10px;
+}
+/* Your Opinion Matters Section */
+.table_container{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+}
+table{
+    width: 100%;
+}
+table, td{
+    border: 1px solid #D0D0D0;
+    border-collapse: collapse;
+    text-align: left;
+}
+th, td{ 
+    padding: 24px;    
+}
+.table-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 0 95px;
+}
