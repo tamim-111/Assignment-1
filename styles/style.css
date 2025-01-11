@@ -313,4 +313,32 @@ th, td{
 .custom_amount{
     margin: 32px 124px;
     padding: 20px 442px;
+    border-style: none;
+}
+/* Newsletter Section */
+#newsletter_section{
+    text-align: center;
+    background-color: #C6E4D6;
+    height: 395px;
+    padding: 80px 329px;
+    border-radius: 24px;
+}
+.email_field{
+    padding: 18px 403px 18px 40px;
+    margin: 24px auto;
+    border-style: none;
+    border-radius:10px 0px 0px 10px;
+}
+.email_field_container{
+    display: flex;
+    align-items: center;
+}
+.button_customization{
+    padding: 16px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
 }
