@@ -269,14 +269,23 @@ table, td{
     border-collapse: collapse;
     text-align: left;
 }
-th, td{ 
+.left_td{ 
     padding: 24px;    
 }
 .table-div{
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
-    padding: 0 95px;
+    font-size: 18px;
+}
+.left_th{
+    margin-left: 24px;
+}
+.right_th{
+    margin-right: 24px;
+}
+.table_data{
+    text-align: center;
 }
 /* Recent News Section */
 .recent_news_header{
@@ -315,6 +324,9 @@ th, td{
     padding: 20px 442px;
     border-style: none;
 }
+.different_color{
+    background-color: #C6E4D6;
+}
 /* Newsletter Section */
 #newsletter_section{
     text-align: center;
@@ -342,6 +354,7 @@ th, td{
     border-style: none;
     border-radius: 0 10px 10px 0;
 }
+/* Footer Section */
 footer{
     text-align: center;
     background-color: #FFFFFF;
@@ -351,9 +364,32 @@ footer{
     padding: 50px 0 32px 0;
 }
 hr{
-    width: 50%;
+    width: 70%;
     color: rgba(14, 14, 14, 0.1);
 }
 .social_image{
     padding: 32px 11px;
+}
+/* Hover Effect On Page */
+.button1:hover, .button2:hover, .button6:hover, .button7:hover, .button_customization:hover{
+    background-color:#006A50;
+    color: white;
+    box-shadow: 0 0 12px #0ebac5;
+    cursor: pointer;
+}
+.button3:hover, .button4:hover, .button5:hover{
+    margin-left: -10px;
+    cursor: pointer;    
+}
+.amount:hover{
+    background-color: #C6E4D6;
+    cursor: pointer;
+    border-color: #006A50;
+}
+.the_vision_of_future_card1:hover, .the_vision_of_future_card2:hover, .the_vision_of_future_card3:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pillars_of_bd_card1:hover, .pillars_of_bd_card2:hover, .pillars_of_bd_card3:hover, 
+.pillars_of_bd_card4:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
